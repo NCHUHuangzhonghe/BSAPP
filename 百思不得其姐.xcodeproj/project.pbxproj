@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		334FA4931D37AC4600BB695F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4921D37AC4600BB695F /* main.m */; };
 		334FA4961D37AC4600BB695F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4951D37AC4600BB695F /* AppDelegate.m */; };
-		334FA4991D37AC4600BB695F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4981D37AC4600BB695F /* ViewController.m */; };
-		334FA49C1D37AC4600BB695F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334FA49A1D37AC4600BB695F /* Main.storyboard */; };
 		334FA49E1D37AC4600BB695F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334FA49D1D37AC4600BB695F /* Assets.xcassets */; };
-		334FA4A11D37AC4600BB695F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334FA49F1D37AC4600BB695F /* LaunchScreen.storyboard */; };
+		334FA4AE1D37BB8700BB695F /* BSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4AD1D37BB8700BB695F /* BSTabBarController.m */; };
+		334FA4B11D37C87500BB695F /* BSEssentialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4B01D37C87500BB695F /* BSEssentialViewController.m */; };
+		334FA4B41D37C89400BB695F /* BSNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4B31D37C89400BB695F /* BSNewViewController.m */; };
+		334FA4B71D37C8AE00BB695F /* BSFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4B61D37C8AE00BB695F /* BSFriendViewController.m */; };
+		334FA4BA1D37C8B700BB695F /* BSMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4B91D37C8B700BB695F /* BSMeViewController.m */; };
+		334FA4BD1D37CCC200BB695F /* BSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4BC1D37CCC200BB695F /* BSTabBar.m */; };
+		334FA4C01D37D73600BB695F /* UIView+BSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4BF1D37D73600BB695F /* UIView+BSExtension.m */; };
+		334FA4C41D37EAD500BB695F /* UIBarButtonItem+BSExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 334FA4C31D37EAD500BB695F /* UIBarButtonItem+BSExtention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,25 @@
 		334FA4921D37AC4600BB695F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		334FA4941D37AC4600BB695F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		334FA4951D37AC4600BB695F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		334FA4971D37AC4600BB695F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		334FA4981D37AC4600BB695F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		334FA49B1D37AC4600BB695F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		334FA49D1D37AC4600BB695F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		334FA4A01D37AC4600BB695F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		334FA4A21D37AC4600BB695F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334FA4AC1D37BB8700BB695F /* BSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabBarController.h; sourceTree = "<group>"; };
+		334FA4AD1D37BB8700BB695F /* BSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabBarController.m; sourceTree = "<group>"; };
+		334FA4AF1D37C87500BB695F /* BSEssentialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSEssentialViewController.h; sourceTree = "<group>"; };
+		334FA4B01D37C87500BB695F /* BSEssentialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSEssentialViewController.m; sourceTree = "<group>"; };
+		334FA4B21D37C89400BB695F /* BSNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNewViewController.h; sourceTree = "<group>"; };
+		334FA4B31D37C89400BB695F /* BSNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNewViewController.m; sourceTree = "<group>"; };
+		334FA4B51D37C8AE00BB695F /* BSFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFriendViewController.h; sourceTree = "<group>"; };
+		334FA4B61D37C8AE00BB695F /* BSFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFriendViewController.m; sourceTree = "<group>"; };
+		334FA4B81D37C8B700BB695F /* BSMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMeViewController.h; sourceTree = "<group>"; };
+		334FA4B91D37C8B700BB695F /* BSMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMeViewController.m; sourceTree = "<group>"; };
+		334FA4BB1D37CCC200BB695F /* BSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabBar.h; sourceTree = "<group>"; };
+		334FA4BC1D37CCC200BB695F /* BSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabBar.m; sourceTree = "<group>"; };
+		334FA4BE1D37D73600BB695F /* UIView+BSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSExtension.h"; sourceTree = "<group>"; };
+		334FA4BF1D37D73600BB695F /* UIView+BSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSExtension.m"; sourceTree = "<group>"; };
+		334FA4C11D37D78200BB695F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		334FA4C21D37EAD500BB695F /* UIBarButtonItem+BSExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BSExtention.h"; sourceTree = "<group>"; };
+		334FA4C31D37EAD500BB695F /* UIBarButtonItem+BSExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BSExtention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +78,23 @@
 			children = (
 				334FA4941D37AC4600BB695F /* AppDelegate.h */,
 				334FA4951D37AC4600BB695F /* AppDelegate.m */,
-				334FA4971D37AC4600BB695F /* ViewController.h */,
-				334FA4981D37AC4600BB695F /* ViewController.m */,
-				334FA49A1D37AC4600BB695F /* Main.storyboard */,
-				334FA49D1D37AC4600BB695F /* Assets.xcassets */,
-				334FA49F1D37AC4600BB695F /* LaunchScreen.storyboard */,
-				334FA4A21D37AC4600BB695F /* Info.plist */,
+				334FA4AC1D37BB8700BB695F /* BSTabBarController.h */,
+				334FA4AD1D37BB8700BB695F /* BSTabBarController.m */,
+				334FA4AF1D37C87500BB695F /* BSEssentialViewController.h */,
+				334FA4B01D37C87500BB695F /* BSEssentialViewController.m */,
+				334FA4B21D37C89400BB695F /* BSNewViewController.h */,
+				334FA4B31D37C89400BB695F /* BSNewViewController.m */,
+				334FA4B51D37C8AE00BB695F /* BSFriendViewController.h */,
+				334FA4B61D37C8AE00BB695F /* BSFriendViewController.m */,
+				334FA4B81D37C8B700BB695F /* BSMeViewController.h */,
+				334FA4B91D37C8B700BB695F /* BSMeViewController.m */,
+				334FA4BB1D37CCC200BB695F /* BSTabBar.h */,
+				334FA4BC1D37CCC200BB695F /* BSTabBar.m */,
+				334FA4BE1D37D73600BB695F /* UIView+BSExtension.h */,
+				334FA4BF1D37D73600BB695F /* UIView+BSExtension.m */,
 				334FA4911D37AC4600BB695F /* Supporting Files */,
+				334FA4C21D37EAD500BB695F /* UIBarButtonItem+BSExtention.h */,
+				334FA4C31D37EAD500BB695F /* UIBarButtonItem+BSExtention.m */,
 			);
 			path = "百思不得其姐";
 			sourceTree = "<group>";
@@ -74,6 +102,9 @@
 		334FA4911D37AC4600BB695F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				334FA4C11D37D78200BB695F /* PrefixHeader.pch */,
+				334FA4A21D37AC4600BB695F /* Info.plist */,
+				334FA49D1D37AC4600BB695F /* Assets.xcassets */,
 				334FA4921D37AC4600BB695F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -105,11 +136,13 @@
 		334FA4861D37AC4600BB695F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BS;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = huangzhonghe;
 				TargetAttributes = {
 					334FA48D1D37AC4600BB695F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = K76D9E7D87;
 					};
 				};
 			};
@@ -136,9 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				334FA4A11D37AC4600BB695F /* LaunchScreen.storyboard in Resources */,
 				334FA49E1D37AC4600BB695F /* Assets.xcassets in Resources */,
-				334FA49C1D37AC4600BB695F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +180,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				334FA4991D37AC4600BB695F /* ViewController.m in Sources */,
 				334FA4961D37AC4600BB695F /* AppDelegate.m in Sources */,
 				334FA4931D37AC4600BB695F /* main.m in Sources */,
+				334FA4BA1D37C8B700BB695F /* BSMeViewController.m in Sources */,
+				334FA4B11D37C87500BB695F /* BSEssentialViewController.m in Sources */,
+				334FA4B71D37C8AE00BB695F /* BSFriendViewController.m in Sources */,
+				334FA4C01D37D73600BB695F /* UIView+BSExtension.m in Sources */,
+				334FA4C41D37EAD500BB695F /* UIBarButtonItem+BSExtention.m in Sources */,
+				334FA4AE1D37BB8700BB695F /* BSTabBarController.m in Sources */,
+				334FA4BD1D37CCC200BB695F /* BSTabBar.m in Sources */,
+				334FA4B41D37C89400BB695F /* BSNewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		334FA49A1D37AC4600BB695F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				334FA49B1D37AC4600BB695F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		334FA49F1D37AC4600BB695F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				334FA4A01D37AC4600BB695F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		334FA4A31D37AC4600BB695F /* Debug */ = {
@@ -265,10 +284,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "百思不得其姐/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得其姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "huangzhonghe.------";
+				PRODUCT_BUNDLE_IDENTIFIER = huangzhonghe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -276,10 +300,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "百思不得其姐/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得其姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "huangzhonghe.------";
+				PRODUCT_BUNDLE_IDENTIFIER = huangzhonghe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

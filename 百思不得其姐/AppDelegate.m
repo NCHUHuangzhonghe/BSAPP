@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "BSTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window=[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    BSTabBarController* tarVC=[[BSTabBarController alloc] init];
+    self.window.rootViewController=tarVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

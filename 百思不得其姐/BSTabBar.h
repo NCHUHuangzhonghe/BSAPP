@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BSTabBar.h
 //  百思不得其姐
 //
 //  Created by huangzhonghe on 16/7/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BSTabBar : UITabBar
 
 @end
-
